@@ -1,0 +1,58 @@
+.search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+input {
+  width: 350px;
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border-color: red;
+}
+
+::placeholder {
+  font-size: large;
+  color: black;
+}
+
+img {
+  border-radius: 5px;
+}
+
+button {
+  height: 36px;
+  width: 100px;
+  background-color: red;
+  color: black;
+  border-radius: 6px;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: black;
+  color: red;
+}
+
+.load-more {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.is-hidden {
+  display: none;
+}
